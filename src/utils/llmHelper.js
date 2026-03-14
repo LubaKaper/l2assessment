@@ -163,7 +163,7 @@ function fallbackParsing(content, message) {
 /**
  * Enhanced mock categorization with intelligent analysis
  */
-function getMockCategorization(message) {
+export function getMockCategorization(message) {
   const lowerMessage = message.toLowerCase();
   const words = lowerMessage.split(/\s+/);
   
